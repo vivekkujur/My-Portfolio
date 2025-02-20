@@ -1,0 +1,27 @@
+.grid_items {
+
+    background-color: gainsboro;
+    border-color: black;
+    border-width:20px;
+    padding: 16px;
+    height: 20em;
+    
+
+}
+
+.title_styles {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+.desc_style {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;  /* Restrict to 6 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}

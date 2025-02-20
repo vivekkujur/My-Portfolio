@@ -1,0 +1,13 @@
+.grid_items_skills {
+    background-color: gainsboro;
+    border-color: black;
+    padding: 8px;
+}
+
+.title_styles {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}

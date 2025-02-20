@@ -1,0 +1,36 @@
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    gap: 10px;
+    list-style: none;
+
+}
+
+.nav_items {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.top_nav_container {
+    flex-direction: row;
+    justify-content:end;
+    padding-top: 1em;
+
+}
+
+.link_style {
+    text-decoration: none;
+    color: black; /* Change color */
+    font-weight: bold; /* Make it bold */
+    font-size: 20px;
+}
+
+.link_style:hover {
+    color: skyblue; /* Change color on hover */
+
+}
+
+
