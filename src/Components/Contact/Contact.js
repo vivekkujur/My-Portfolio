@@ -1,18 +1,28 @@
 import React from 'react'
 import '../Contact/Contact.css'
-import { IconButton } from '@mui/material'
+import { Button, IconButton } from '@mui/material'
+import { Email } from '@mui/icons-material';
 
 function Contact() {
+
+    const openGmail = () => {
+        window.open("https://mail.google.com/mail/?view=cm&fs=1&to=vivekkujur.jnv@gmail.com", "_blank");
+      };
+      const callNumber = () => {
+        window.location.href = "tel:+917354016686";
+      };
+
   return (
-    <div>
+    <div id= 'contact'>
         <h1 className='title_styles'>Contact</h1>
         <div >
-                <button className='email_btn'>
+                <Button  color = {"black"} variant='outlined' startIcon ={<Email/>}onClick={openGmail} size='large' style={{marginBottom:30 }}>
                     Email
-                </button>
-                <button className='email_btn'>
-                    Mobile
-                </button>
+                </Button>
+                {/* <button className='email_btn' onClick={callNumber}>
+                    Call : +91-7354016686
+                </button> */}
+               
             </div>
     </div>
   )

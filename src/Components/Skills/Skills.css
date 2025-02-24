@@ -1,7 +1,15 @@
 .grid_items_skills {
     background-color: gainsboro;
     border-color: black;
-    padding: 8px;
+    border-radius: 10px;
+    height: 80px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+    
+    
+
 }
 
 .title_styles {
