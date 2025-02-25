@@ -1,0 +1,79 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.5.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.1.0
+2 info using node@v23.5.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/macm1/AndroidStudioProjects/base-react-app/.npmrc
+5 silly config load:file:/Users/macm1/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm i
+8 verbose argv "i" "--cache" ".npm" "--prefer-offline"
+9 verbose logfile logs-max:10 dir:/Users/macm1/AndroidStudioProjects/base-react-app/.npm/_logs/2025-02-24T06_19_03_660Z-
+10 verbose logfile /Users/macm1/AndroidStudioProjects/base-react-app/.npm/_logs/2025-02-24T06_19_03_660Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest react@^18.2.0
+15 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 725ms
+17 http fetch GET 200 https://registry.npmjs.org/react 532ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+19 silly fetch manifest react-dom@^18.2.0
+20 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react-dom 164ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+23 verbose stack Error: could not resolve
+23 verbose stack     at PlaceDep.failPeerConflict (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+23 verbose stack     at new PlaceDep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+23 verbose stack     at #buildDepStep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:920:18)
+23 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+23 verbose stack     at async Promise.all (index 1)
+23 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+23 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:149:5)
+23 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:207:9)
+23 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:67:5)
+24 error code ERESOLVE
+25 error ERESOLVE could not resolve
+26 error
+27 error While resolving: tech-stack-icons@2.1.0
+27 error Found: react@19.0.0[2m[22m
+27 error [2mnode_modules/react[22m
+27 error   react@"^19.0.0" from the root project
+27 error   [95mpeer[39m react@">=16.8.0" from @emotion/react@11.14.0[2m[22m
+27 error   [2mnode_modules/@emotion/react[22m
+27 error     @emotion/react@"^11.14.0" from the root project
+27 error     [95mpeer[39m @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.14.0[2m[22m
+27 error     [2mnode_modules/@emotion/styled[22m
+27 error       @emotion/styled@"^11.14.0" from the root project
+27 error       4 more (@mui/lab, @mui/material, @mui/styled-engine, @mui/system)
+27 error     4 more (@mui/lab, @mui/material, @mui/styled-engine, @mui/system)
+27 error   17 more (@emotion/styled, ...)
+27 error
+27 error Could not resolve dependency:
+27 error [95mpeer[39m react@"^18.2.0" from tech-stack-icons@2.1.0[2m[22m
+27 error [2mnode_modules/tech-stack-icons[22m
+27 error   tech-stack-icons@"^2.1.0" from the root project
+27 error
+27 error Conflicting peer dependency: react@18.3.1[2m[22m
+27 error [2mnode_modules/react[22m
+27 error   [95mpeer[39m react@"^18.2.0" from tech-stack-icons@2.1.0[2m[22m
+27 error   [2mnode_modules/tech-stack-icons[22m
+27 error     tech-stack-icons@"^2.1.0" from the root project
+27 error
+27 error Fix the upstream dependency conflict, or retry
+27 error this command with --force or --legacy-peer-deps
+27 error to accept an incorrect (and potentially broken) dependency resolution.
+28 error
+28 error
+28 error For a full report see:
+28 error /Users/macm1/AndroidStudioProjects/base-react-app/.npm/_logs/2025-02-24T06_19_03_660Z-eresolve-report.txt
+29 silly unfinished npm timer reify 1740377943956
+30 silly unfinished npm timer reify:loadTrees 1740377943957
+31 silly unfinished npm timer idealTree:buildDeps 1740377944217
+32 silly unfinished npm timer idealTree:node_modules/tech-stack-icons 1740377944218
+33 verbose cwd /Users/macm1/AndroidStudioProjects/base-react-app
+34 verbose os Darwin 22.6.0
+35 verbose node v23.5.0
+36 verbose npm  v11.1.0
+37 verbose exit 1
+38 verbose code 1
+39 error A complete log of this run can be found in: /Users/macm1/AndroidStudioProjects/base-react-app/.npm/_logs/2025-02-24T06_19_03_660Z-debug-0.log

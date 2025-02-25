@@ -1,0 +1,492 @@
+'Log files:
+/Users/macm1/AndroidStudioProjects/base-react-app/.npm/_logs/2025-02-24T06_19_03_660Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: tech-stack-icons@2.1.0
+Found: react@19.0.0
+node_modules/react
+  react@"^19.0.0" from the root project
+  peer react@">=16.8.0" from @emotion/react@11.14.0
+  node_modules/@emotion/react
+    @emotion/react@"^11.14.0" from the root project
+    peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.14.0
+    node_modules/@emotion/styled
+      @emotion/styled@"^11.14.0" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/styled-engine@6.4.3
+      node_modules/@mui/styled-engine
+        @mui/styled-engine@"^6.4.3" from @mui/system@6.4.3
+        node_modules/@mui/system
+          @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+          @mui/system@"^6.4.3" from @mui/material@6.4.5
+          node_modules/@mui/material
+            @mui/material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+            node_modules/@mui/icons-material
+              @mui/icons-material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+            node_modules/@mui/lab
+              @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/system@6.4.3
+      node_modules/@mui/system
+        @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+        @mui/system@"^6.4.3" from @mui/material@6.4.5
+        node_modules/@mui/material
+          @mui/material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+          node_modules/@mui/icons-material
+            @mui/icons-material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+    peerOptional @emotion/react@"^11.5.0" from @mui/lab@6.0.0-beta.28
+    node_modules/@mui/lab
+      @mui/lab@"^6.0.0-beta.28" from the root project
+    peerOptional @emotion/react@"^11.5.0" from @mui/material@6.4.5
+    node_modules/@mui/material
+      @mui/material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+      node_modules/@mui/icons-material
+        @mui/icons-material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+    peerOptional @emotion/react@"^11.4.1" from @mui/styled-engine@6.4.3
+    node_modules/@mui/styled-engine
+      @mui/styled-engine@"^6.4.3" from @mui/system@6.4.3
+      node_modules/@mui/system
+        @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+        @mui/system@"^6.4.3" from @mui/material@6.4.5
+        node_modules/@mui/material
+          @mui/material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+          node_modules/@mui/icons-material
+            @mui/icons-material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+    peerOptional @emotion/react@"^11.5.0" from @mui/system@6.4.3
+    node_modules/@mui/system
+      @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      @mui/system@"^6.4.3" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@">=16.8.0" from @emotion/styled@11.14.0
+  node_modules/@emotion/styled
+    @emotion/styled@"^11.14.0" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/lab@6.0.0-beta.28
+    node_modules/@mui/lab
+      @mui/lab@"^6.0.0-beta.28" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/material@6.4.5
+    node_modules/@mui/material
+      @mui/material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+      node_modules/@mui/icons-material
+        @mui/icons-material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/styled-engine@6.4.3
+    node_modules/@mui/styled-engine
+      @mui/styled-engine@"^6.4.3" from @mui/system@6.4.3
+      node_modules/@mui/system
+        @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+        @mui/system@"^6.4.3" from @mui/material@6.4.5
+        node_modules/@mui/material
+          @mui/material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+          node_modules/@mui/icons-material
+            @mui/icons-material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/system@6.4.3
+    node_modules/@mui/system
+      @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      @mui/system@"^6.4.3" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@">=16.8.0" from @emotion/use-insertion-effect-with-fallbacks@1.2.0
+  node_modules/@emotion/use-insertion-effect-with-fallbacks
+    @emotion/use-insertion-effect-with-fallbacks@"^1.2.0" from @emotion/react@11.14.0
+    node_modules/@emotion/react
+      @emotion/react@"^11.14.0" from the root project
+      peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.14.0
+      node_modules/@emotion/styled
+        @emotion/styled@"^11.14.0" from the root project
+        peerOptional @emotion/styled@"^11.3.0" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+        peerOptional @emotion/styled@"^11.3.0" from @mui/material@6.4.5
+        node_modules/@mui/material
+          @mui/material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+          node_modules/@mui/icons-material
+            @mui/icons-material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+        peerOptional @emotion/styled@"^11.3.0" from @mui/styled-engine@6.4.3
+        node_modules/@mui/styled-engine
+          @mui/styled-engine@"^6.4.3" from @mui/system@6.4.3
+          node_modules/@mui/system
+            @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+            node_modules/@mui/lab
+              @mui/lab@"^6.0.0-beta.28" from the root project
+            @mui/system@"^6.4.3" from @mui/material@6.4.5
+            node_modules/@mui/material
+              @mui/material@"^6.4.5" from the root project
+              peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+              node_modules/@mui/icons-material
+                @mui/icons-material@"^6.4.5" from the root project
+              peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+              node_modules/@mui/lab
+                @mui/lab@"^6.0.0-beta.28" from the root project
+        peerOptional @emotion/styled@"^11.3.0" from @mui/system@6.4.3
+        node_modules/@mui/system
+          @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+          @mui/system@"^6.4.3" from @mui/material@6.4.5
+          node_modules/@mui/material
+            @mui/material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+            node_modules/@mui/icons-material
+              @mui/icons-material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+            node_modules/@mui/lab
+              @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/react@"^11.5.0" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/react@"^11.5.0" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/react@"^11.4.1" from @mui/styled-engine@6.4.3
+      node_modules/@mui/styled-engine
+        @mui/styled-engine@"^6.4.3" from @mui/system@6.4.3
+        node_modules/@mui/system
+          @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+          @mui/system@"^6.4.3" from @mui/material@6.4.5
+          node_modules/@mui/material
+            @mui/material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+            node_modules/@mui/icons-material
+              @mui/icons-material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+            node_modules/@mui/lab
+              @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/react@"^11.5.0" from @mui/system@6.4.3
+      node_modules/@mui/system
+        @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+        @mui/system@"^6.4.3" from @mui/material@6.4.5
+        node_modules/@mui/material
+          @mui/material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+          node_modules/@mui/icons-material
+            @mui/icons-material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+    @emotion/use-insertion-effect-with-fallbacks@"^1.2.0" from @emotion/styled@11.14.0
+    node_modules/@emotion/styled
+      @emotion/styled@"^11.14.0" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/styled-engine@6.4.3
+      node_modules/@mui/styled-engine
+        @mui/styled-engine@"^6.4.3" from @mui/system@6.4.3
+        node_modules/@mui/system
+          @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+          @mui/system@"^6.4.3" from @mui/material@6.4.5
+          node_modules/@mui/material
+            @mui/material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+            node_modules/@mui/icons-material
+              @mui/icons-material@"^6.4.5" from the root project
+            peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+            node_modules/@mui/lab
+              @mui/lab@"^6.0.0-beta.28" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/system@6.4.3
+      node_modules/@mui/system
+        @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+        @mui/system@"^6.4.3" from @mui/material@6.4.5
+        node_modules/@mui/material
+          @mui/material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+          node_modules/@mui/icons-material
+            @mui/icons-material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@">=16.8.0" from @floating-ui/react-dom@2.1.2
+  node_modules/@floating-ui/react-dom
+    @floating-ui/react-dom@"^2.1.1" from @mui/base@5.0.0-beta.69
+    node_modules/@mui/base
+      @mui/base@"5.0.0-beta.69" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/base@5.0.0-beta.69
+  node_modules/@mui/base
+    @mui/base@"5.0.0-beta.69" from @mui/lab@6.0.0-beta.28
+    node_modules/@mui/lab
+      @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/icons-material@6.4.5
+  node_modules/@mui/icons-material
+    @mui/icons-material@"^6.4.5" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/lab@6.0.0-beta.28
+  node_modules/@mui/lab
+    @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/material@6.4.5
+  node_modules/@mui/material
+    @mui/material@"^6.4.5" from the root project
+    peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+    node_modules/@mui/icons-material
+      @mui/icons-material@"^6.4.5" from the root project
+    peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+    node_modules/@mui/lab
+      @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/private-theming@6.4.3
+  node_modules/@mui/private-theming
+    @mui/private-theming@"^6.4.3" from @mui/system@6.4.3
+    node_modules/@mui/system
+      @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      @mui/system@"^6.4.3" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/styled-engine@6.4.3
+  node_modules/@mui/styled-engine
+    @mui/styled-engine@"^6.4.3" from @mui/system@6.4.3
+    node_modules/@mui/system
+      @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      @mui/system@"^6.4.3" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/system@6.4.3
+  node_modules/@mui/system
+    @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+    node_modules/@mui/lab
+      @mui/lab@"^6.0.0-beta.28" from the root project
+    @mui/system@"^6.4.3" from @mui/material@6.4.5
+    node_modules/@mui/material
+      @mui/material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+      node_modules/@mui/icons-material
+        @mui/icons-material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/utils@6.4.3
+  node_modules/@mui/utils
+    @mui/utils@"^6.4.1" from @mui/base@5.0.0-beta.69
+    node_modules/@mui/base
+      @mui/base@"5.0.0-beta.69" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+    @mui/utils@"^6.4.3" from @mui/lab@6.0.0-beta.28
+    node_modules/@mui/lab
+      @mui/lab@"^6.0.0-beta.28" from the root project
+    @mui/utils@"^6.4.3" from @mui/material@6.4.5
+    node_modules/@mui/material
+      @mui/material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+      node_modules/@mui/icons-material
+        @mui/icons-material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+    @mui/utils@"^6.4.3" from @mui/private-theming@6.4.3
+    node_modules/@mui/private-theming
+      @mui/private-theming@"^6.4.3" from @mui/system@6.4.3
+      node_modules/@mui/system
+        @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+        @mui/system@"^6.4.3" from @mui/material@6.4.5
+        node_modules/@mui/material
+          @mui/material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+          node_modules/@mui/icons-material
+            @mui/icons-material@"^6.4.5" from the root project
+          peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+          node_modules/@mui/lab
+            @mui/lab@"^6.0.0-beta.28" from the root project
+    @mui/utils@"^6.4.3" from @mui/system@6.4.3
+    node_modules/@mui/system
+      @mui/system@"^6.4.3" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+      @mui/system@"^6.4.3" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@"^18.0.0 || ^19.0.0" from @testing-library/react@16.2.0
+  node_modules/@testing-library/react
+    @testing-library/react@"^16.2.0" from the root project
+  peer react@"^19.0.0" from react-dom@19.0.0
+  node_modules/react-dom
+    react-dom@"^19.0.0" from the root project
+    peer react-dom@">=16.8.0" from @floating-ui/react-dom@2.1.2
+    node_modules/@floating-ui/react-dom
+      @floating-ui/react-dom@"^2.1.1" from @mui/base@5.0.0-beta.69
+      node_modules/@mui/base
+        @mui/base@"5.0.0-beta.69" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/base@5.0.0-beta.69
+    node_modules/@mui/base
+      @mui/base@"5.0.0-beta.69" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/lab@6.0.0-beta.28
+    node_modules/@mui/lab
+      @mui/lab@"^6.0.0-beta.28" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0 || ^19.0.0" from @mui/material@6.4.5
+    node_modules/@mui/material
+      @mui/material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+      node_modules/@mui/icons-material
+        @mui/icons-material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+    peer react-dom@"^18.0.0 || ^19.0.0" from @testing-library/react@16.2.0
+    node_modules/@testing-library/react
+      @testing-library/react@"^16.2.0" from the root project
+    peerOptional react-dom@">=18" from react-router@7.2.0
+    node_modules/react-router
+      react-router@"7.2.0" from react-router-dom@7.2.0
+      node_modules/react-router-dom
+        react-router-dom@"^7.2.0" from the root project
+    peer react-dom@">=18" from react-router-dom@7.2.0
+    node_modules/react-router-dom
+      react-router-dom@"^7.2.0" from the root project
+    peer react-dom@">=16.6.0" from react-transition-group@4.4.5
+    node_modules/react-transition-group
+      react-transition-group@"^4.4.5" from @mui/material@6.4.5
+      node_modules/@mui/material
+        @mui/material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+        node_modules/@mui/icons-material
+          @mui/icons-material@"^6.4.5" from the root project
+        peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+        node_modules/@mui/lab
+          @mui/lab@"^6.0.0-beta.28" from the root project
+  peer react@">=18" from react-router@7.2.0
+  node_modules/react-router
+    react-router@"7.2.0" from react-router-dom@7.2.0
+    node_modules/react-router-dom
+      react-router-dom@"^7.2.0" from the root project
+  peer react@">=18" from react-router-dom@7.2.0
+  node_modules/react-router-dom
+    react-router-dom@"^7.2.0" from the root project
+  peer react@">= 16" from react-scripts@5.0.1
+  node_modules/react-scripts
+    react-scripts@"5.0.1" from the root project
+  peer react@">=16.6.0" from react-transition-group@4.4.5
+  node_modules/react-transition-group
+    react-transition-group@"^4.4.5" from @mui/material@6.4.5
+    node_modules/@mui/material
+      @mui/material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/icons-material@6.4.5
+      node_modules/@mui/icons-material
+        @mui/icons-material@"^6.4.5" from the root project
+      peer @mui/material@"^6.4.5" from @mui/lab@6.0.0-beta.28
+      node_modules/@mui/lab
+        @mui/lab@"^6.0.0-beta.28" from the root project
+
+Could not resolve dependency:
+peer react@"^18.2.0" from tech-stack-icons@2.1.0
+node_modules/tech-stack-icons
+  tech-stack-icons@"^2.1.0" from the root project
+
+Conflicting peer dependency: react@18.3.1
+node_modules/react
+  peer react@"^18.2.0" from tech-stack-icons@2.1.0
+  node_modules/tech-stack-icons
+    tech-stack-icons@"^2.1.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

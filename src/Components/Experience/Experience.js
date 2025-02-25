@@ -26,7 +26,7 @@ function Experience() {
             <Timeline
                 sx={{
                     [`& .${timelineOppositeContentClasses.root}`]: {
-                        flex: 0.1,
+                        flex: 0.3,
                     },
                 }}
             >

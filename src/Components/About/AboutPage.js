@@ -19,6 +19,7 @@ function AboutPage() {
     }
     return (
         <div id= 'about' className='about_container'>
+            
             <h1 className='title_style' >Hi , I am {about.name}</h1>
             <h1>{about.role}</h1>
             <h4 className='description_style'>{about.summary}</h4>
